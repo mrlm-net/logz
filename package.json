@@ -1,0 +1,36 @@
+{
+  "name": "@mrlm/logz",
+  "version": "0.1.0",
+  "description": "Typescript RFC5424 logging package.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+      ".": "./dist/index.js",
+      "./types": "./dist/index.d.ts"
+  },
+  "files": [
+      "dist",
+      "docs"
+  ],
+  "author": {
+      "name": "Martin Hrášek - MRLM.NET",
+      "email": "martin@hrasek.email"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/mrlm-net/logz.git"
+  },
+  "scripts": {
+      "build": "npx vite build",
+      "package:publish": "npm publish --access public",
+      "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "vite": "^6.0.5",
+    "vite-plugin-dts": "^4.4.0",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
