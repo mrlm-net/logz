@@ -1,6 +1,6 @@
 {
   "name": "@mrlm/logz",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Typescript RFC5424 logging package.",
   "type": "module",
   "main": "./dist/index.js",
@@ -24,7 +24,7 @@
   "scripts": {
       "build": "npx vite build",
       "package:publish": "npm publish --access public",
-      "test": "vitest"
+      "test": "vitest run"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

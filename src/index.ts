@@ -5,6 +5,8 @@ import {
     LogOutput 
 } from "./types";
 
+export { LogLevel, LogOutput, type LogOptions, type ILogger };
+
 export class Logger implements ILogger {
     private level: LogLevel;
     private format: LogOutput;
