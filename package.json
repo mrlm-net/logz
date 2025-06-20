@@ -36,7 +36,7 @@
         "@types/node": "^22.10.2",
         "vite": "^6.0.5",
         "vite-plugin-dts": "^4.4.0",
-        "vitest": "^2.1.8"
+        "vitest": "^2.1.9"
     },
     "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
