@@ -10,7 +10,8 @@ export default defineConfig({
       formats: ["es"],
       // Could also be a dictionary or array of multiple entry points
       entry: {
-        index: resolve(__dirname, "src/index.ts")
+        index: resolve(__dirname, "src/index.ts"),
+        server: resolve(__dirname, "src/index.server.ts")
       },
       name: pkg.name,
       // the proper extensions will be added
